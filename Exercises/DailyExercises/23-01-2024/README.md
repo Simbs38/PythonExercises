@@ -1,7 +1,7 @@
-## Daily Exercise 23/01/32
+# Daily Exercise 23/01/32
 
 
-#### 1) Python operators
+### 1) Python operators
 
 Paste the following into your python file
 
