@@ -2,8 +2,7 @@
 
 ### Notes
 
-
-For these exercises note that the method input returns a `string`
+For these exercises note that the method `input` returns a `string`
 
 This means that in `userResponse = input("What is your age ")` userResponse will be a string
 
@@ -24,6 +23,8 @@ userResponseNumber = int(userResponse)
 ```
 
 Where the method `int(<string>)` tries to transform a string into an int
+
+---
 
 Bonus tip, to make the code smaller you can shape your code to ocupy less space, so the code above can be writen as:
 
