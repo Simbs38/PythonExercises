@@ -1,5 +1,7 @@
 # Daily Exercise 25/01/24
 
+### Notes
+
 
 For these exercises note that the method input returns a `string`
 
@@ -29,6 +31,7 @@ Bonus tip, to make the code smaller you can shape your code to ocupy less space,
 userResponse = int(input("What is your age "))
 ```
 
+---
 
 ### 1) Calculating things
 
