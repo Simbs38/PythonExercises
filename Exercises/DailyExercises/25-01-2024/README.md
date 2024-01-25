@@ -1,10 +1,36 @@
 # Daily Exercise 25/01/24
 
 
+For these exercises note that the method input returns a string
+Eg: in `userResponse = input("What is your age ")` userResponse will be a string
+
+So in this code:
+
+```
+userResponse = input("What is your age ")
+print(userResponse + userResponse)
+```
+
+If the user inserts `10`, the output with `1010`, because python is adding the 2 strings together
+To tell python that we want to use the input as numbers we can use:
+
+```
+userResponse = input("What is your age ")
+userResponseNumber = int(userResponse)
+```
+
+Where the method `int(<string>)` tries to transform a string into an int
+
+Bonus tip, to make the code smaller you can shape your code to ocupy less space, so the code above can be writen as:
+
+```
+userResponse = int(input("What is your age "))
+```
+
+
 ### 1) Calculating things
 
 1) Ask the user to insert a number representing the radius of an circle
-	
 	1.1) Knowing that you can calculate the circle area with `3.14 * r^2`, print the area of a circle
 	
 	1.2) Knowing that you can calculate the perimeter of the circle with `2 * 3.14 * r`, print the perimeter of the circle
