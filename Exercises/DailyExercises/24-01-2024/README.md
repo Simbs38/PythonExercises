@@ -1,4 +1,4 @@
-# Daily Exercise 24/01/32
+# Daily Exercise 24/01/24
 
 ### 1) Printing a house
 
