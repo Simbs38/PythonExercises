@@ -1,8 +1,9 @@
 # Daily Exercise 25/01/24
 
 
-For these exercises note that the method input returns a string
-Eg: in `userResponse = input("What is your age ")` userResponse will be a string
+For these exercises note that the method input returns a `string`
+
+This means that in `userResponse = input("What is your age ")` userResponse will be a string
 
 So in this code:
 
@@ -12,6 +13,7 @@ print(userResponse + userResponse)
 ```
 
 If the user inserts `10`, the output with `1010`, because python is adding the 2 strings together
+
 To tell python that we want to use the input as numbers we can use:
 
 ```
